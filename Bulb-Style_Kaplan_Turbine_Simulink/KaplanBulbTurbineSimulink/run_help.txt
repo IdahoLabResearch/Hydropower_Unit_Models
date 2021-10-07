@@ -7,25 +7,25 @@ H6E MODEL DEVELOPEMENT IN SIMULINK (following American governor Matlab model)
 ========== Run in Grid Connected Mode (test field data results) ===========
 Generator : Modeled as swing equation equivalent 
 1. Run initialization - load the .m files (AB_init, AB_load,data) into initFcn. The initial values (s1-s11) are stored in the workspace in the variable (s), then loaded into the integrators and tf's in the model to specify init conds
-2. Override  the values of (Kp,Ki,Kd,bbias,delec,ke) in AB_load_data.m - as specified in John's code 
+2. Override  the values of (Kp,Ki,Kd,bbias,delec,ke) in AB_load_data.m 
 3. Specify Pinit, Plocal(MW) in the model callbacks
-4. Set the step pref change inputs according to the Matlab codes (runon20pct.m, runon60pct.m, runon80pct.m)
+4. Set the step pref change inputs
 5. Adjust time step to t=0.005 and RUN!
 
 
 
 ========== Run in Isolated Mode ===========
 1. Run initialization - load the .m files (AB_init, AB_load,data) into initFcn. The initial values (s1-s11) are stored in the workspace in the variable (s), then loaded into the integrators and tf's in the model to specify init conds
-2. Override  the values of (Kp,Ki,Kd,bbias,delec,ke) in AB_load_data.m - as specified in John's code
+2. Override  the values of (Kp,Ki,Kd,bbias,delec,ke) in AB_load_data.m
 3. Specify Pinit, Plocal(MW) accordingly in the model callbacks
-4. Apply step change to Plocal in Simulink model (isol0pt0mw.m, isol2pt0mw.m etc.)
+4. Apply step change to Plocal in Simulink model 
 5. Adjust time step to t=0.01 and RUN!
 
 
 
 ========== Run in SG machine connected isolated Mode ===========
 1. Run initialization - load the .m files (AB_init, AB_load,data) into initFcn. The initial values (s1-s11) are stored in the workspace in the variable (s), then loaded into the integrators and tf's in the model to specify init conds
-2. Specify the values of (Kp,Ki,Kd,bbias,delec,ke) in AB_load_data.m - as specified in John's code (for isolated mode)
+2. Specify the values of (Kp,Ki,Kd,bbias,delec,ke) in AB_load_data.m (for isolated mode)
 3. Change time step to (t=2.5e-5) and RUN!
 
 
