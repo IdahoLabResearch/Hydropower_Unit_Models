@@ -2,12 +2,12 @@
 CODENAME Hydro Unit Models
 
 CODE INTRO
-Description: This software package includes hydro governor and turbine models developed in Simulink (The Mathworks, Inc.) and RSCAD (RTDS Technologies Inc.) 
+Description: This software package includes hydrogovernor and turbine models developed in Simulink (The Mathworks, Inc.) and RSCAD (RTDS Technologies Inc.) 
 for low-head bulb-style Kaplan turbine hydropower plants. The model developed in Simulink has been designed and tuned to match the governor-turbine 
-response for a real-world hydropower unit owned by Idaho Falls Power (IFP). The Simulink and RSCAD models enable real-time testing in a hardware-in-the-loop
+response for a real-world run-of-river (ROR) hydropower unit owned by Idaho Falls Power (IFP). The Simulink and RSCAD models enable real-time testing in a hardware-in-the-loop
 (HIL) implementation using OPAL-RT and RTDS digital real-time simulators, respectively. An automatic initialization for dynamic simulation has also been 
 integrated to each model in both Simulink and RSCAD. The RSCAD initialization involves a novel python based interfacing for automatic modification of 
-the initial conditions in the model. The parameters of these models can be tuned to match other hydropower plants in this class
+the initial conditions in the model. The parameters of these models can be tuned to match other hydropower plants in this class.
 
 
 MODEL BENEFITS
@@ -20,7 +20,7 @@ This is critical to assess the associated electromechanical instability (sustain
 SOFTWARE REQUIREMENTS
 Matlab 
 Simulink 
-RTDS/RSACD
+RTDS/RSCAD
 Python 3.7
 
  
