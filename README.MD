@@ -23,7 +23,8 @@ Simulink
 RTDS/RSCAD
 Python 3.7
 
-HOW TO CITE
+
+### HOW TO CITE
 Abhishek Banerjee, S M Shafiul Alam, Thomas M. Mosier, and John Undrill, "Modeling a Bulb-Style Kaplan Unit Hydrogovernor and Turbine in Mathworks-Simulink and RTDS-RSCAD", in proceedings of 2022 IEEE PES T&D Conference and Exposition, April 25-28, 2022, New Orleans, LA, USA.
 
  
